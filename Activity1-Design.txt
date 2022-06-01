@@ -1,0 +1,208 @@
+Activity1:
+The following document shows MusoPlan Design.
+For this project, we use the distributed version control system (which includes JSON package). Because most developers are familiar with it, and it has online support. We use GitHub as VCS for this purpose and in the main branch, but we must consider feature branches that include the initial file and need to merge it too. To follow the industry standard, all commit messages must be in the present tense and imperative mood. Commit scope should be in the single change with meaningful sentences. Because people by looking at the commit, must understand what we have done. As VCS must be configured, each commit should have the name and email address of the author. To use GitHub, our repository must have a README.md file and no present code.
+For software development, we have some standards, such as:
+All software must include unit tests and have README.md format for sections with setup instructions, operating instructions, and testing instructions. The JavaScript functions must have the comment to describe their behaviour and the types of their parameters. We must follow MDN's General JavaScript guidelines. Also, we must have the strategies for problem-solving in code which is used in the design and structure of the code.
+For software testing, we have some standards, such as:
+Using Jest to automated test and it must have 75% coverage of functions tested, have a clear manual test instruction to be used for each person who wants to do the test, using manual system testing for a software test plan and also it must include test cases with purposefully invalid, incorrect, or malformed inputs. Having the test reports include a description of how testing fits into the SDLC of the project and an appendix with a JUnit XML document of the automated testing results. To do the test, we need to use the software development life cycle waterfall process.
+We can design and implement this project as a following:
+As we have two different parts (musician and troupe), we can have two classes (musician class and troupe class).
+For musician class, we have four different variables such as musician name, years playing, hourly rate and type of the instrument. We take these variables through the command line (console part). Based on the limitations that we have for them, we must set or change the name, year, and hourly year. To show and print (through the console section) the musician details (including name, years playing, and hourly rate), we pass this method through this class.
+We consider the musician class as a parent class. Classes that inherit from this parent class are called child classes. These four child classes are Guitarist, Bassist, Percussionist and Flautist. To show and print (through the console section) the interesting fact depending on the musician‘s instrument, we pass this method to these child classes.
+For the troupe class, we have different variables such as name, minimum duration, genre, and hourly rate. We take these variables through the command line (console part). Based on the limitations that we have for them, we must set or change them. Also, there are some methods that we must pass through this troupe class to show and print them in the console (command-line interface), such as:
+-	A summary of the troupe includes name, number of the instruments, type of genre, the minimum duration of the booking, and hourly rate.
+-	To show detail for the troupe, it means to have each musician in the troupe introduce themselves, we must call musician class to get these details.
+-	Calculate the cost of deploying the troupe for a number of hours.
+-	Read a list of troupe names.
+-	Write a list of detailed descriptions for all troupes.
+-	Add a musician to the troupe.
+The limitations or conditions of the musician class ‘s variables are:
+-	Name between 3 and 30 characters
+-	Must play one of the four instruments below
+-	Years playing must be non-negative
+-	Hourly rate must be over 50
+The limitations or conditions of the troupe class‘s variables are:
+-	Name between 3 and 30 characters
+-	No more than 5 musicians
+-	Valid genre from (rock, jazz, pop)
+-	Minimum duration in hours between 0.5 and 3
+The available instrumentalists and their interesting facts are:
+- 	Guitarist - "The more strings you have, the better you are"
+- 	Bassist - "Everyone loves a bassist”
+- 	Percussionist - "Me drum"
+- 	Flautist - "1989 heavy metal instrument of the year"
+
+
+
+
+
+
+Class Musician and its conditions:
+MusicianClass file:
+Function getSelection(){
+To select the one of the musician: guitarist , bassist , percussionist , or flautist
+Return selection
+}
+Musician Conditions:
+Function stringName(){
+Use if condition to get the name base on the condition
+Return name
+}
+function yearFunction(){
+Use if condition to get the year base on the condition
+Return year
+}
+function rateFunction(){
+Use if condition to get the rate base on the condition
+Return rate}
+
+Class Musician
+Properties
+-name
+-year
+-rate
+Behaviours
+DisplayMusician (){
+To show musician details 
+Return details
+}
+class Guitar extends Musician{
+properties
+-Mtype
+Behaviours
+To show the musician fact
+Return guitaristFacr
+}
+class Bass extends Musician{
+properties
+-Mtype
+Behaviours
+To show the musician fact
+Return bassisFact
+}
+class Percussion extends Musician{
+properties
+-Mtype
+Behaviours
+To show the musician fact
+Return precussionistFact 
+}
+class Flaut extends Musician{
+properties
+-Mtype
+Behaviours
+To show the musician fact
+Return flautistFact 
+}
+
+function instrumentsFunction(){
+use if condition to get instrument type to show children musician class
+return display of guitar, bass, percussion and flaut
+}
+Function addMusician(){
+Use if condition to choose the musician’s number to add and get details of each musician
+Return display details for each musician
+}
+Export MusicianClass file
+////////////////////////////////////////////
+
+Class Troupe and its conditions
+TroupeClass file:
+function Stringname () {
+use if condition to get troupe name based on the condition
+return name
+}
+function DurationOfHours () {
+use if condition to get duration of hours based on the condition
+return hour
+}
+function Genre () {
+use if condition to get genre based on the condition
+return genre
+}
+
+Class Troupe 
+Properties
+-name
+-genre
+-minimumDuration
+-type
+-music (return of addMusician function)
+-num (number of the selected instrument)
+Behaviours
+displayTroupe() {
+To show the name, minimum duration and genre of the troupe
+Return sentence
+}
+TroupeSummary () {
+To show the name, minimum duration, genre, num and type
+Return sentence
+}
+TroupeDetaile () {
+To show the musician detail in the troup
+Return sentence}
+getSelection () {
+to select the type of instrument
+return selection
+}
+function typeOfInstrument () {
+Use if condition to choose type of instrument
+Return type}
+Import musicianClass file here.
+Export troupe Class file
+//////////////////////////////////////
+Calculate the cost of deploying and the hourly rate of the whole troupe:
+Hrate file:
+Import MusicianClass file here.
+Function addRate () {
+Use if condition to get an array of the rates
+Return array
+}
+Function rateOnly () {
+To map the array of the rates
+Return rate
+}
+Use for loop to sum all rates and show the hourly rate of the whole troupe.
+To calculate the cost of deploying we use this sum and multiple in duration. Then we divide the result by array length
+Export the Hrate file.
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Write and read files:
+To write the records we create the mywork.txt file.
+To read the file, we create a welcome.txt file with some information about the popular troupes.
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+Stages:
+We use the “Implement” file to implement our code.
+Function getSelection () {
+To select one of the stages
+Return selection
+}
+Function Stages () {
+Use if condition to implement each stage
+If stage 1 was selected {
+We import MusicianClass file to create musician class and then we show musician details on the mywork.txt
+}
+If stage 2 was selected {
+We import the TroupeClass file to create the trope class and then we show troupe details on the mywork.txt file
+}
+ If stage 3 was selected {
+We import Hrate file and then we show a summary description on the mywork.txt file
+}
+If stage 4 was selected {
+We import Hrate file and then we show a details description of the troupe in the mywork.txt file
+}
+If stage 5 was selected {
+We import Hrate file and then we show a cost of deploying in the mywork.txt file
+} 
+If stage 6 was selected {
+We read the welcome.txt file contain and show them as a result in terminal
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,26 @@
+Nima Shekarriz Fard
+Activity 5
+The following report shows my use and management of VCS in a VCS use report.
+Learning a new subject is always challenging. To use a git bash I had some problems with git push and git commit commands. I solved them with my teacher ‘s guide.
+I created a new repository on GitHub, Then I copy the link and used it in my bash to create a new repository in my folder on my computer, through the “git clone” command. Then I create a branch and new text file. When I used “git commit” I was not able to add my file to the repository. It showed that another branch is working., I delete all my folders and branches. Then I made a new one. But still, I had the same result. I asked my teacher to solve this problem, she suggested I look at my folder if there was any hidden file which did not been deleted. After deleting the hidden file, the “git commit” command, worked.
+
+ To comply with the organizational requirements, I used Git, because it is a distributed version control system and has good online support. Issue tracking and code review are much easier Also, it is familiar for all developers.
+In using the ‘git commit’ command I enter my username and email address.
+When I created a repository on my GitHub account, it had README.md file.
+To make branches, I used a link of my repository (in GitHub) by ‘git clone’ to make a repository on my computer. Then by using” git checkout -b mybranch” I made a new branch in my repository folder.
+In Git bash, by “nano mynewfile.txt” command, a GNU window opened. I added some text.
+ To save a text file, I used ”ctrl+s” 
+To exit GNU, I used “ctrl+x”, then click on “Y” 
+To add the file to the repository, I used “git add mynewfile.txt” and “git commit -m “add a text file to git’”
+Now, If I make any changes on mynewfile, by using a “nano mynewfile.txt” and adding some changes, to save these changes I must use “git add” and” git commit” commands again. To save any changes in the local repository of Git, I used to commit. Because Git does not add changes automatically.
+ So, staging in Git is a phase that includes all the changes. Also, by using “git status” we can see those changes, are added to our file or not.
+To move our file which is inside of branch (here is mynewfile.txt) to the main folder, we use “git merge”.
+To move the changes from the repository on my computer to a GitHub as a server, I can use “git push” command.
+To perform a git fetch and download a file from the remote branch, we use “git push” command.
+For creating the file, in my repository at GitHub, I click on ”add file” and “create a new file”. I named my file “abc”. I add all text or changes that I need.
+Then at the bottom of the page, I click on “commit new file”.
+In my repository at GitHub, I click on” pull requests” named the folder, and click on” New pull request”.
+In the opened window, I write my changes, then click on the green bottom. In this way, I asked the source to review my file and changes. 
+To see all records of “commit” in my repository on my computer, I can use the “git log” command. So, I can see all files that were recorded by a commit with their dates.
+And my last experience is with the usage of “fork”. My repository was forked from another repository (Iresha), and I add a file or uploaded a file (which included all changes). Then I click on commit changes. By” pull requests” and I click on ”new pull request”, I asked the source to review my file and changes.
+

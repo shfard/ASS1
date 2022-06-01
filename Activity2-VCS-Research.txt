@@ -1,0 +1,47 @@
+Activity 2
+The following report shows my research in Version Control System (VCS)
+There are six different kinds of VCS investigated:
+CVS:  is stand for Concurrent Versions System. As it published in 1986, It called grandfather of revision control systems. Although CVS is older one, but designer or developer uses it to backup and sharing file. A best client for CVS is “Tortoise CVS” which is used on Windows.
+Subversion: As this Versions control System has the widest adoption, it is a famous one and it is used by SourceForge, Apache, Python, Ruby and google code, which are the larger projects.
+“Tortoise SVN” is a file browser for a Windows user to view, edit and modify Subversion code base. “Versions” provides a way to work with Subversion for a Mac user.
+Git: the new version control systems which has become popular, quickly. It was published by Linux kernel creator Linus Torvalds. A distributed version control system has different branches. These branches hold different parts of the code. So, there isn’t one centralized code base. But because in SVN and CVS, there is just one centralized version control, so these two-control system use one master copy of software.
+Mercurial: is distributed version control system, like Git, but because it does not have many functions to learn, so it is much simpler and faster system than Git. It is used by larger projects.
+Bazaar: like Git and Mercurial, Bazar is a distributed version control system. As it is so easy to modify, it is great for any project.
+
+Monotone: In this distributed revision control bunch, downloading the initial repository will take a time for new user of Monotone. For a person who is familiar with CVS systems, learning Monotone is easy.
+These different VCS have some benefit. Such as:
+-	Saving the changes and merging them.
+-	Comparing files and finding differences between them.
+-	Easily download the current version of the application by new user of team and keep track of the currently running version.
+-	 Easily comparing different versions of files for troubleshooting.
+On my experience and research, Git is a good choice for the organisational requirements. As Git is fast and has a simple design, I can use it easily by having different branches which hold different parts of the code. Also, GitHub is the single host for Git repositories and provides a front end for large projects. So, issue tracking and code review is much easier.
+So, I decided to installation Git in my computer for this project. As I have windows 10 on my computer, to install git, I went to following link and download starts automatically. 
+https://git-scm.com/download/win
+If your download hasn't started, you can use this link, depend on your computer is 32-bit Git or 64-bit Git for Windows Setup.
+https://github.com/git-for-windows/git/releases/download/v2.33.0.windows.2/Git-2.33.0.2-64-bit.exe
+find downloaded file, double-click to extract and install.
+By this message” Allow the app to make changes to your device” choose Yes.
+Review the GNU General Public License and click next.
+for an installation location, click “next”
+In select component, select ‘Next’
+In select start menu folder, click “next”
+Adjusting your path environment click” Git from the command line”
+And then for all stages use “next”. At the end, click on “install” and “finish”.
+After installing, for configuration process, I made account on GitHup website and repository. By using a repository link that was on website, I put the link on my Git bash, through “git clone repository link”. I set my username and email address by giving this command in Git bash program:
+git config --global user.name "my username"
+$ git config --global user.email “my email”
+So, in this way, I can have a connection between my folder on my computer and GitHub. Also, every Git commit can use this information. By using this command git –version, you will make sure that your server is up to date.
+Through configuration, I encountered to some issues.
+First issue was, in adding my username and email, and second one in “add git commit”. 
+Both issues fix by my teacher. I created new repository on GitHub, Then I copy the link and used it in my bash to create new repository in my folder on my computer, through the “git clone” command. Then I create a branch and new text file. When I used “git commit” I was not able to add my file to repository. It showed that another branch is working., I delete all my folders and branches on my computer. Then I made new one. But still I had same result. I asked my teacher to solve this problem, she suggested me to look at my folder if there was any hidden file which did not deleted. After deleting the hidden file, “git commit” command, worked. So, if you could not solve your issue by using “git --help” command, you can get the help of professional person.
+Resources:
+•	Glen Stansberry, 18 Sep 2008, Smashing Magazine website, 20 September 2021
+<https://www.smashingmagazine.com/2008/09/the-top-7-open-source-version-control-systems/#:~:text=%206%20Version%20Control%20Systems%20Reviewed%20%201,like%20Git.%20Mercurial%20was%20designed%20for...%20More%20>
+•	Irma Azarian, 14 June 2013, Segue Technologies Inc., 20 September 2021
+< https://www.seguetech.com/a-review-of-software-version-control-systems-benefits-and-why-it-matters/ >
+•	Vladimir Kaplarevic, 8 January 2020, phoenixNAP, 20 September 2021< https://phoenixnap.com/kb/how-to-install-git-windows >
+
+
+
+
+ 

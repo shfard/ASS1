@@ -1,0 +1,60 @@
+
+The following minute shows my interview with the music management officer, Iresha.
+Iresha: “First I want to explain my expectation about MusoPlan. I had an old computer to use for my job as a music management officer. I asked you to build this software to enter all my information easily. “
+Nima:” who wants to access this program?”
+Iresha: “me, reception, and also all musicians who work with me. I want when I open my program, I can see a part with the musician’s name. in this part I like to see a list of the musician. As I work with four kinds of musicians (guitarist, bassist, percussionist, and flutist) I like to see one different part for each musician.
+At each part, I like to see descriptions depending on their instrument and their name, instrument, years playing, hourly rate.”
+Nima:” Which kind of description?”
+Iresha: “Later I will give some papers about all of my requirements.” 
+Nima: “Do you have any conditions about the musician part, for example, the Name of the instrument that paly or years of playing?”
+Iresha: “Yes of course. 
+Their name must be between 3 and 30 characters. Years playing must be non-negative, must play one of the four instruments (guitar, bass, percussion and flout), and the hourly rate must be over 50.
+And another thing, I like to see a troupe section on my page. I don’t know if you know about a troupe, or not. A troupe is a collection of musicians.
+I would like to see a description of a troupe including the troupe's name, how many of which instruments it contains, what genre the troupe plays, The minimum duration of a booking, and The hourly rate for the whole troupe. 
+I like to add musicians to the troupe and see their introduction.” 
+Nima: “Do you have any condition about your troupe as same as musician part?”
+Iresha: “Yes, I do. The troupe’s name must be between 3 and 30 characters. No more than 5 musicians in each troupe. Valid genre because I have just three genres, rock, jazz, and pop. Minimum duration in hours between 0.5 and 3.”
+Nima: “you said the hourly rate, do you want to calculate the cost of deploying the troupe?”
+Iresha: “Yes, I do.”
+Nima: “So, may have a calculation formula?”
+Iresha: “Yes, you may. I wrote it in those papers. I would like to read a file including a list of troupe names and also write the details description of all troupes in that file.”
+Nima: “What format would you like to have for your file?”
+Iresha: “All of the texts must be in text format because I am more familiar with it. Also, I like to have an empty file there to use for documentation whenever I need it.”
+
+At the end of the meeting, she gave me some papers which are included following part:
+Troupe data requirements are:
+-	Name between 3 and 30 characters
+-	No more than 5 musicians
+-	Valid genres from (rock, jazz, and pop)
+-	Minimum duration in hours between 0.5 and 3
+Musician data requirements are:
+-	Name between 3 and 30 characters
+-	Must play one of the four instruments below
+-	Years playing must be non-negative
+-	Hourly rate must be over 50
+The available instrumentalists and their interesting facts are:
+-	Guitarist - "The more strings you have, the better you are"
+-	Bassist - "Everyone loves a bassist
+-	Percussionist - "Me drum"
+-	Flautist - "1989 heavy metal instrument of the year"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

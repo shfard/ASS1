@@ -1,0 +1,17 @@
+The following minute shows my coding presentation with, Iresha.
+-Iresha:” May you please show me your presentation?”
+-Nima: “Here is my musician data requirements. When you want to work as an user, you can use the ‘Terminal’ part of JavaScript. I run the program.’ Enter your name:’ You can write your name here, for example if you write ‘Nima’ program return ‘His name is Nima’.”
+Iresha: “may you write other name? because I want to see your name ‘s condition works or not.’
+Nima:” yes. For ‘nik’ because the number of characters is three, program return this message ‘Name between 3 and 30 characters’. Next data is hourly rate. ‘Enter your hourly rate:’”
+Iresha: “52”
+Nima: “‘His hourly rate is: 52’, and if your input was 40, the result was ‘Hourly rate must be greater than 50’. Next object is Years playing must be non-negative. As you see for input of ‘-1’ the output is ‘Year must be greater than zero'. The last object is ‘musician must play one of the four instruments’.
+If you enter “piano” as an input, the result will be ‘’ "Musician must play one of these instruments: 'guitar',' bass', 'percussion, 'flute' ". “
+Iresha: “Why did not you put all data with their conditions together?
+Nima:” I did not find the way to do this”
+Iresha:” What about your musician class”
+Nima:”I gave all objects of  name, year and rate as the properties in my constructor. And I pass these methods which are inside of display musician, to the class. If I give all those objects manually, I can show the result here. Such as "Name: Niki", Years playing :5”, Hourly rate:52", ‘who plays guitar and his interesting fact is "The more strings you have, the better you are”’
+Iresha: “What about your troupe class”
+Nima: “Same as musician condition, I coded the troupe conditions too. But for the troupe class, still I am working on it.”
+Iresha: “Ok, I give you more time to work on it.  write all our conversation as a minute, make a table for test result  and send them through email, with the rest of reports”
+
+

@@ -1,0 +1,7 @@
+Musicians detaile are:
+The name of the musician is . He/She is playing for Year must be greater than zero.enter your years playing  years and his/her hourly rate is 
+
+The name of the musician is . He/She is playing for Year must be greater than zero.enter your years playing  years and his/her hourly rate is 
+
+ If you are interested in the other options,
+ you must start this program from beginning and select the other options 
