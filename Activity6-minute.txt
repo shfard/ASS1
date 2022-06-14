@@ -1,3 +1,4 @@
+Activity 6
 The following minute shows my coding presentation with, Iresha.
 -Iresha:” May you please show me your presentation?”
 -Nima: “Here is my musician data requirements. When you want to work as an user, you can use the ‘Terminal’ part of JavaScript. I run the program.’ Enter your name:’ You can write your name here, for example if you write ‘Nima’ program return ‘His name is Nima’.”
