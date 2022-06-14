@@ -112,8 +112,5 @@ var Itype=typeOfInstrument(InsType);
 const {Musician,Guitar,Bass,Percussion,Flaut,music}=require('./MusicianClass.js')
 
 const T1=new Troupe(Tname,TMDuration,Tgenre,Itype,num2,music);
-
-
-
 //--------------------------------------------------------------------------
 module.exports={Troupe,T1,TMDuration}; 
