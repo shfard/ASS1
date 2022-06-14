@@ -103,6 +103,7 @@ Function addMusician(){
 Use if condition to choose the musician’s number to add and get details of each musician
 Return display details for each musician
 }
+We will assign addMusician function to the "music" variable. We want to use "music" variable in the Troupe Class as object aggregation. When we add the musician,  through this function and Musician class we can see the musician's details in the TroupeDetails method.
 Export MusicianClass file
 ////////////////////////////////////////////
 
@@ -162,8 +163,12 @@ Function rateOnly () {
 To map the array of the rates
 Return rate
 }
-Use for loop to sum all rates and show the hourly rate of the whole troupe.
-To calculate the cost of deploying we use this sum and multiple in duration. Then we divide the result by array length
+Use for loop{
+ to sum all rates and show the hourly rate of the whole troupe.
+}
+To calculate the cost of deploying we use this sum and multiple in duration. Then we divide the result by array length.
+Here, Function rateOnly and for loop( To calculate the hourly rate of the whole troupe) are iterating methods that we use in our code to get all rates and show the calculation of the hourly rate of the whole troupe.
+
 Export the Hrate file.
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 Write and read files:
