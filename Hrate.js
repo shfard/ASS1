@@ -1,6 +1,5 @@
 const ps=require("prompt-sync")
 const prompt=ps();
-
 //--------------------------------------------------
 function rateFunction(srate)
 {
@@ -13,7 +12,6 @@ function rateFunction(srate)
     return srate;
     }
 }
-
 //-------------------------------------------------- 
 const {Troupe,T1,TMDuration}=require('./TroupeClass.js')
 let num=prompt("To calculate the cost of deploying or The hourly rate for the whole troupe,\n you must add the hourle rate. How many rate do you want to add, maximum number must be 5 ? ")
@@ -53,7 +51,6 @@ function rateOnly(arr){
 
 }
 //console.log(rateOnly(nik));
-
 //---------------- the hourly rate for the whole troupe for Troupe Summary-----------------
 var cal=rateOnly(nik);
 var B=cal.length;
@@ -62,7 +59,6 @@ for (let i = 0; i < B; i++){
     sum +=cal[i];
 }
 var sum3=sum; 
-
 
 //---------------------------- Implement  ----------------------------------------------
 //To have summary of the Troupe: display+ summary +
