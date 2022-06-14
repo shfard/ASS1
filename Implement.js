@@ -1,5 +1,5 @@
 
-const { time } = require("console");
+
 const ps=require("prompt-sync")
 const prompt=ps();
 
@@ -84,29 +84,10 @@ function Stages(){
 }
 Stages();
 
-/*
-let run=prompt("How many time do you want to run this program ? ")
-
-for(let i=0; i<run.length; i++){
-    lik=Stages(i);
-    console.log(lik);
-    
-}
-*/
 
 
 
 
-
-/*
-//var data=arraylik[i];
-const fs = require('fs');
-// Write data in 'mywork.txt' .
- fs.writeFile('mywork.txt', data, (err) => {
-     // In case of a error throw err.
-    if (err) throw err;
- })
-*/
 
 
 
