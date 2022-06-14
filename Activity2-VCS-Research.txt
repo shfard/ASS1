@@ -1,4 +1,4 @@
-Activity 2
+Activity 2-Research
 The following report shows my research in Version Control System (VCS)
 There are six different kinds of VCS investigated:
 CVS:  is stand for Concurrent Versions System. As it published in 1986, It called grandfather of revision control systems. Although CVS is older one, but designer or developer uses it to backup and sharing file. A best client for CVS is “Tortoise CVS” which is used on Windows.
