@@ -1,4 +1,4 @@
-Nima Shekarriz Fard
+
 Activity 5
 The following report shows my use and management of VCS in a VCS use report.
 Learning a new subject is always challenging. To use a git bash I had some problems with git push and git commit commands. I solved them with my teacher ‘s guide.
